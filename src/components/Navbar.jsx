@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { BiMenu, BiX } from "react-icons/bi"
+import { IoLogoWhatsapp } from "react-icons/io";
 import { BsGithub, BsLinkedin, BsYoutube, BsTwitter } from "react-icons/bs"
 
 const Navbar = () => {
@@ -23,6 +24,8 @@ const Navbar = () => {
         <li><a className="opacity-70 hover:text-blue-400 hover:opacity-100" href="#home">Home</a></li>
         <li><a className="opacity-70 hover:text-pink-400 hover:opacity-100" href="#tech">Tech</a></li>
         <li><a className="opacity-70 hover:text-purple-400 hover:opacity-100" href="#projects">Projects</a></li>
+        <li><a className="opacity-70 hover:text-amber-400 hover:opacity-100" href="#education">Education</a></li>
+        <li><a className="opacity-70 hover:text-cyan-400 hover:opacity-100" href="#experience">Experience</a></li>
         <li><a className="opacity-70 hover:text-green-400 hover:opacity-100" href="#contact">Contact</a></li>
       </ul>
 
@@ -30,8 +33,8 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-5">
         <li className="text-xl opacity-70 hover:text-red-500 hover:opacity-100"><BsYoutube /></li>
         <li className="text-xl opacity-70 hover:text-blue-500 hover:opacity-100" onClick={() => setIsOpen(false)}><a href="https://www.linkedin.com/in/ahmad-asyraf-z" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a></li>
-        <li className="text-xl opacity-70 hover:text-sky-400 hover:opacity-100"><BsTwitter /></li>
-        <li className="text-xl opacity-70 hover:text-orange-400 hover:opacity-100"onClick={() => setIsOpen(false)}><a href="https://github.com/AhmadAsyraf" target="_blank" rel="noopener noreferrer"><BsGithub /></a></li>
+        <li className="text-xl opacity-70 hover:text-green-400 hover:opacity-100"><IoLogoWhatsapp /></li>
+        <li className="text-xl opacity-70 hover:text-orange-400 hover:opacity-100" onClick={() => setIsOpen(false)}><a href="https://github.com/AhmadAsyraf" target="_blank" rel="noopener noreferrer"><BsGithub /></a></li>
       </ul>
 
       {/* Mobile Icon */}
@@ -51,6 +54,8 @@ const Navbar = () => {
           <li><a className="hover:text-blue-400" onClick={() => setIsOpen(false)} href="#home">Home</a></li>
           <li><a className="hover:text-pink-400" onClick={() => setIsOpen(false)} href="#tech">Tech</a></li>
           <li><a className="hover:text-purple-400" onClick={() => setIsOpen(false)} href="#projects">Projects</a></li>
+          <li><a className="hover:text-amber-400" onClick={() => setIsOpen(false)} href="#education">Education</a></li>
+          <li><a className="hover:text-cyan-400" onClick={() => setIsOpen(false)} href="#experience">Experience</a></li>
           <li><a className="hover:text-green-400" onClick={() => setIsOpen(false)} href="#contact">Contact</a></li>
         </ul>
 

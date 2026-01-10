@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="/profile_pic.png"
+            src="/profile_pic2.png"
             alt="Profile"
             className="w-[300px] md:w-[350px] cursor-pointer rounded-full
               shadow-xl shadow-indigo-900 transition-all duration-300
@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
 
           <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-4xl font-light md:text-6xl">
-            Web Developer
+            Software Developer
           </h3>
 
           <p className="text-sm md:text-base text-gray-400">
