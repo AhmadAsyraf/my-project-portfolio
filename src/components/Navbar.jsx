@@ -34,7 +34,7 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-5">
         <li className="text-xl opacity-70 hover:text-red-500 hover:opacity-100"><BsYoutube /></li>
         <li className="text-xl opacity-70 hover:text-blue-500 hover:opacity-100" onClick={() => setIsOpen(false)}><a href="https://www.linkedin.com/in/ahmad-asyraf-z" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a></li>
-        <li className="text-xl opacity-70 hover:text-green-400 hover:opacity-100"><IoLogoWhatsapp /></li>
+        <li className="text-xl opacity-70 hover:text-green-400 hover:opacity-100"onClick={() => setIsOpen(false)}><a href="https://wa.me/qr/27D2XX7OAAU6O1" target="_blank" rel="noopener noreferrer"><IoLogoWhatsapp /></li>
         <li className="text-xl opacity-70 hover:text-orange-400 hover:opacity-100" onClick={() => setIsOpen(false)}><a href="https://github.com/AhmadAsyraf" target="_blank" rel="noopener noreferrer"><BsGithub /></a></li>
       </ul>
 
