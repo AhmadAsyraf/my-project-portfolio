@@ -26,6 +26,7 @@ const Navbar = () => {
         <li><a className="opacity-70 hover:text-purple-400 hover:opacity-100" href="#projects">Projects</a></li>
         <li><a className="opacity-70 hover:text-amber-400 hover:opacity-100" href="#education">Education</a></li>
         <li><a className="opacity-70 hover:text-cyan-400 hover:opacity-100" href="#experience">Experience</a></li>
+        <li><a className="opacity-70 hover:text-indigo-400 hover:opacity-100" href="#achievements">Achievements</a></li>
         <li><a className="opacity-70 hover:text-green-400 hover:opacity-100" href="#contact">Contact</a></li>
       </ul>
 
@@ -56,6 +57,7 @@ const Navbar = () => {
           <li><a className="hover:text-purple-400" onClick={() => setIsOpen(false)} href="#projects">Projects</a></li>
           <li><a className="hover:text-amber-400" onClick={() => setIsOpen(false)} href="#education">Education</a></li>
           <li><a className="hover:text-cyan-400" onClick={() => setIsOpen(false)} href="#experience">Experience</a></li>
+          <li><a className="hover:text-indigo-400" onClick={() => setIsOpen(false)} href="#achievements">Achievements</a></li>
           <li><a className="hover:text-green-400" onClick={() => setIsOpen(false)} href="#contact">Contact</a></li>
         </ul>
 

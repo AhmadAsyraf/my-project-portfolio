@@ -4,14 +4,7 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from "lucide-react";
 
 // Mock data for Experience
 const experienceData = [
-  {
-    company: "Infinicore Sdn Bhd",
-    role: "Full Stack Developer",
-    year: "2025 - Present",
-    location: "Shah Alam, Selangor",
-    description: "Actively involved in full-cycle development of websites and web systems. Developed corporate websites using WordPress and built scalable systems using Django (Python) as the backend framework and React for the frontend, styled with Tailwind CSS. Contributed to database design, system architecture, backend logic, REST API development, frontend integration, and user interface design.",
-    logo: "/infinicore logo.png"
-  },
+ 
   {
     company: "Carsome Sdn Bhd",
     role: "Junior Software Engineer",
